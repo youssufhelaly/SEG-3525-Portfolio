@@ -4,6 +4,7 @@ import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./globals.css"; // your Tailwind/globals
 import Head from "next/head";
+import Link from "next/link";
 
 interface RootLayoutProps {
   children: React.ReactNode;
@@ -26,9 +27,9 @@ export default function RootLayout({ children }: RootLayoutProps) {
         <header>
           <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
             <div className="container">
-              <a className="navbar-brand" href="/">
+              <Link className="navbar-brand" href="/">
                 Youssuf Helaly
-              </a>
+              </Link>
               <button
                 className="navbar-toggler"
                 type="button"
