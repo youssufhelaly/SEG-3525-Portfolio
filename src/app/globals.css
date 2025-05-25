@@ -32,51 +32,17 @@ section {
   scroll-snap-align: start;
 }
 
-/* Marquee Animation */
-@keyframes marquee {
-  0%   { transform: translateX(0); }
-  100% { transform: translateX(-50%); }
+/* globals.css */
+
+.text-info {
+  color: rgba(8, 145, 178, 0.6) !important;
 }
 
-/* Marquee Container & Content */
-.marquee-container {
-  position: relative;
-  overflow: hidden;
-}
-.marquee-content {
-  display: inline-flex;
-  animation: marquee linear infinite;
+.border-info {
+  border-color: rgba(8, 145, 178, 0.9) !important;
 }
 
-/* Fade-out Masks */
-.marquee-container::before,
-.marquee-container::after {
-  content: "";
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  width: 15%; /* adjust fade width */
-  z-index: 10;
-  pointer-events: none;
-}
-.marquee-container::before {
-  left: 0;
-  background: radial-gradient(
-    circle at left,
-    rgba(15, 47, 47, 0.8),
-    transparent
-  );
-}
-.marquee-container::after {
-  right: 0;
-  background: radial-gradient(
-    circle at right,
-    rgba(12, 38, 38, 0.8),
-    transparent
-  );
+.bg-info {
+  background-color: rgba(8, 145, 178, 0.9) !important;
 }
 
-/* Pause on Hover */
-.marquee-container:hover .marquee-content {
-  animation-play-state: paused;
-}
