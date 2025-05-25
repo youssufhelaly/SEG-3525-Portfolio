@@ -9,7 +9,7 @@ export default function Projet1() {
         <h1 className="display-4 text-info mb-4">Design 1 : Site de services</h1>
         <p className="lead">Cette page sera disponible prochainement.<br /><b>À venir</b></p>
         <Link href="/" className="btn btn-outline-info mt-4">
-          Retour à l'accueil
+          Retour à l’accueil
         </Link>
       </div>
     </main>
