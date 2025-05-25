@@ -1,8 +1,6 @@
-"use client";
-import "bootstrap/dist/js/bootstrap.bundle.min";
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
-import "./globals.css"; // your Tailwind/globals
+import "./globals.css";
 import Head from "next/head";
 import Link from "next/link";
 
@@ -17,10 +15,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
         <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <title>Portfolio de Youssuf Helaly</title>
-        <meta
-          name="description"
-          content="Portfolio de Youssuf Helaly, fullstack engineer"
-        />
+        <meta name="description" content="Portfolio de Youssuf Helaly, fullstack engineer" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <body className="bg-gray-900 text-white">
@@ -44,24 +39,16 @@ export default function RootLayout({ children }: RootLayoutProps) {
               <div className="collapse navbar-collapse" id="navbarNav">
                 <ul className="navbar-nav ms-auto">
                   <li className="nav-item">
-                    <a className="nav-link" href="#hero">
-                      Accueil
-                    </a>
+                    <a className="nav-link" href="#hero">Accueil</a>
                   </li>
                   <li className="nav-item">
-                    <a className="nav-link" href="#about">
-                      À propos
-                    </a>
+                    <a className="nav-link" href="#about">À propos</a>
                   </li>
                   <li className="nav-item">
-                    <a className="nav-link" href="#how-i-work">
-                      Comment je travaille
-                    </a>
+                    <a className="nav-link" href="#how-i-work">Comment je travaille</a>
                   </li>
                   <li className="nav-item">
-                    <a className="nav-link" href="#case-studies">
-                      Études de cas
-                    </a>
+                    <a className="nav-link" href="#case-studies">Études de cas</a>
                   </li>
                 </ul>
               </div>
@@ -76,4 +63,3 @@ export default function RootLayout({ children }: RootLayoutProps) {
     </html>
   );
 }
-
