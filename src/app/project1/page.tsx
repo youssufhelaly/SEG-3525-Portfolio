@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 import Link from "next/link";
-
+"use client"
 export default function Projet1() {
   return (
     <main className="bg-dark text-white min-vh-100 d-flex flex-column align-items-center justify-content-center">

@@ -1,5 +1,5 @@
 import Link from "next/link";
-
+"use client"
 // app/projet1/page.js
 export default function Projet3() {
   return (
