@@ -141,9 +141,9 @@ function HowIWork() {
 
 function CaseStudies() {
   const studies = [
-    { title: 'Design 1 : Site de services', img: '/Projet1.jpg', desc: 'Projet de site pour un dentiste (à venir)', link: '/project1/' },
-    { title: 'Design 2 : Petit jeu', img: '/Projet2.jpeg', desc: 'Prototype de jeu interactif (à venir)', link: '/project2/' },
-    { title: 'Design 3 : E-commerce', img: '/Projet3.jpeg', desc: 'Boutique en ligne (à venir)', link: '/project3/' },
+    { title: 'Design 1 : Site de services', img: '/Projet1.jpg', desc: 'Projet de site pour un dentiste (à venir)', link: '/project1' },
+    { title: 'Design 2 : Petit jeu', img: '/Projet2.jpeg', desc: 'Prototype de jeu interactif (à venir)', link: '/project2' },
+    { title: 'Design 3 : E-commerce', img: '/Projet3.jpeg', desc: 'Boutique en ligne (à venir)', link: '/project3' },
     { title: 'Design 4 : Analyse & Visualisation', img: '/Projet4.jpg', desc: 'Dashboard de données sportives (à venir)', link: '/project4' },
   ];
 
