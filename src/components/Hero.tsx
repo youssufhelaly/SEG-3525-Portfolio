@@ -128,7 +128,7 @@ function HowIWork() {
       <div className="container text-center">
         <h2 className="h2 text-info mb-3">Comment je travaille</h2>
         <p>
-          Actuellement, je suis le cours <b>SEG3525 - Conception et analyse d'interfaces usagers</b> pour approfondir mes compétences en conception d’interfaces utilisateur.<br />
+          Actuellement, je suis le cours <b>SEG3525 - Conception et analyse d’interfaces usagers</b> pour approfondir mes compétences en conception d’interfaces utilisateur.<br />
           J’apprends les principes fondamentaux du design UI/UX et j’applique HTML, CSS, Bootstrap, et React pour créer des interfaces modernes.<br />
           Je m’appuie sur des ressources reconnues, comme le site <a href="https://www.nngroup.com/" target="_blank" rel="noopener noreferrer" className="text-info">Nielsen Norman Group</a> et le <a href="https://www.w3schools.com/bootstrap5/index.php" target="_blank" rel="noopener noreferrer" className="text-info">tutoriel Bootstrap 5 de W3Schools</a>.<br />
           <br />
