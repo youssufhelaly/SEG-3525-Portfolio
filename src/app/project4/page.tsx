@@ -1,6 +1,6 @@
-import Link from "next/link";
 "use client"
-// app/projet1/page.js
+import Link from "next/link";
+
 export default function Projet4() {
   return (
     <main className="min-h-screen flex flex-col items-center justify-center bg-gray-900 text-white px-4">
