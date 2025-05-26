@@ -5,20 +5,10 @@ import Image from "next/image";
 import { FaLinkedin, FaGithub, FaFileAlt } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 
-export default function Home() {
-  return (
-    <main className="bg-dark text-white min-vh-100">
-      <Hero />
-      <About />
-      <HowIWork />
-      <CaseStudies />
-    </main>
-  );
-}
 
-function Hero() {
+export default function Hero() {
   return (
-    <section id="hero" className="bg-dark text-white py-5 overflow-hidden">
+    <section id="hero" className="bg-dark text-white py-6 overflow-hidden">
       <div className="container d-flex flex-column justify-content-center align-items-center text-center position-relative">
         {/* Spotlight Overlay */}
         <div
@@ -107,21 +97,6 @@ function Hero() {
   );
 }
 
-function About() {
-  return (
-    <section id="about" className="py-5  text-white">
-      <div className="container text-center">
-        <h2 className="h2 text-info mb-3">À propos de moi</h2>
-        <p>
-          Étudiant en génie logiciel à l’Université d’Ottawa.<br />
-          J’aime créer des applications web modernes, apprendre de nouvelles technologies et relever des défis techniques.<br />
-          Passionné par le design d’interfaces, le développement backend et l’innovation logicielle.<br />
-        </p>
-      </div>
-    </section>
-  );
-}
-
 function HowIWork() {
   return (
     <section id="how-i-work" className="py-5 bg-dark text-white">
@@ -134,42 +109,6 @@ function HowIWork() {
           <br />
           Plus tard dans le semestre, j’intégrerai des concepts avancés comme la conception centrée sur l’utilisateur et l’évaluation heuristique.
         </p>
-      </div>
-    </section>
-  );
-}
-
-function CaseStudies() {
-  const studies = [
-    { title: 'Design 1 : Site de services', img: '/Projet1.jpg', desc: 'Projet de site pour un dentiste (à venir)', link: '/project1' },
-    { title: 'Design 2 : Petit jeu', img: '/Projet2.jpeg', desc: 'Prototype de jeu interactif (à venir)', link: '/project2' },
-    { title: 'Design 3 : E-commerce', img: '/Projet3.jpeg', desc: 'Boutique en ligne (à venir)', link: '/project3' },
-    { title: 'Design 4 : Analyse & Visualisation', img: '/Projet4.jpg', desc: 'Dashboard de données sportives (à venir)', link: '/project4' },
-  ];
-
-  return (
-    <section id="case-studies" className="py-5  text-white">
-      <div className="container">
-        <h2 className="h2 text-info text-center mb-4">Études de cas</h2>
-        <div className="row g-4">
-          {studies.map(({ title, img, desc, link }) => (
-            <div className="col-12 col-sm-6 col-lg-3" key={title}>
-              <a href={link} className="card bg-dark text-white h-100 text-decoration-none">
-                <Image
-                  src={img}
-                  alt={title}
-                  width={400}
-                  height={240}
-                  className="card-img-top"
-                />
-                <div className="card-body">
-                  <h3 className="h5 card-title">{title}</h3>
-                  <p className="card-text">{desc}</p>
-                </div>
-              </a>
-            </div>
-          ))}
-        </div>
       </div>
     </section>
   );
