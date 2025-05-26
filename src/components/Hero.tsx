@@ -8,7 +8,7 @@ import { HiOutlineMail } from "react-icons/hi";
 
 export default function Hero() {
   return (
-    <section id="hero" className="bg-dark text-white py-6 overflow-hidden">
+    <section id="hero" className="bg-dark text-white py-20 overflow-hidden">
       <div className="container d-flex flex-column justify-content-center align-items-center text-center position-relative">
         {/* Spotlight Overlay */}
         <div
