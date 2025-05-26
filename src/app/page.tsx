@@ -1,10 +1,15 @@
-"use client"
-import Hero from "@/components/Hero"
+import Hero from '@/components/Hero'
+import HowIWork from '@/components/HowIWork'
+import CaseStudies from '@/components/CaseStudies'
+import Navbar from '@/components/Navbar'
 
-export default function Page() {
+export default function HomePage() {
   return (
-    <main className="scroll-snap-container space-y-8 md:space-y-12">
+    <main className="bg-dark text-white min-vh-75">
+      <Navbar/>
       <Hero />
+      <HowIWork />
+      <CaseStudies />
     </main>
   )
 }
