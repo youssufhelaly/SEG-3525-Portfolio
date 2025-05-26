@@ -45,4 +45,7 @@ section {
 .bg-info {
   background-color: rgba(8, 145, 178, 0.9) !important;
 }
-
+#case-studies a,
+#case-studies a:hover {
+  text-decoration: none !important;
+}
