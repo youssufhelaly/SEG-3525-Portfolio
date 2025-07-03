@@ -14,7 +14,7 @@ interface Study {
 const studies: Study[] = [
   { title: 'Design 1 : Barber Shop MAYOU', img: '/barber-shop.jpeg', desc: 'Site de réservation pour un barbier', link: 'https://seg-devoir2.vercel.app/' },
   { title: 'Design 2 : MAYOU Card', img: '/mayou-card.png', desc: 'Prototype interactif du jeu de mémoire MAYOU Card avec drapeaux.', link: 'https://seg-devoir3.vercel.app/' },
-  { title: 'Design 3 : E-commerce', img: '/Projet3.jpeg', desc: 'Boutique en ligne (à venir)', link: '/project3' },
+  { title: 'Design 3 : E-commerce MAYOU', img: '/Projet3.jpeg', desc: 'Boutique en ligne MAYOU de prêt-à-porter : filtres facettes, panier, paiement et retour d’avis', link: 'https://seg-devoir4.vercel.app/' },
   { title: 'Design 4 : Analyse & Visualisation', img: '/Projet4.jpg', desc: 'Dashboard de données sportives (à venir)', link: '/project4' },
 ];
 
